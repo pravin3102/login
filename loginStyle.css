@@ -1,0 +1,146 @@
+@font-face {
+font-family: "sportscenter";
+src: url("Sportscenter.ttf");
+}
+
+body {
+    background-color:#052428;
+    color:white;
+    font-family:"sportscenter";
+    letter-spacing: 1px;
+}
+
+.container {
+    height:70%;
+    display: flex;
+}
+
+#header {
+     width:100%;
+     height:15%;
+}
+
+#left {
+    height:100%;
+    width:50%;
+}
+
+#leftContent {
+    position: absolute;
+    top: 46%;
+    text-align: center;
+    left: 21.5%;
+    font-size: 2vw;
+}
+
+#logo {
+    width: 17%;
+    height: 22%;
+    position: relative;
+    top: 37%;
+    left: 27%;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-image:url("icon.png");
+}
+
+#centerLine {
+    width: 0.156vw;
+    background-color: #eee;
+    height: 35.4vw;
+    opacity: 0.4;
+}
+
+#right {
+    height:100%;
+    width:50%;
+    float:right;
+}
+
+#welcome {
+    position:relative;
+    height:33.3%;
+    text-align:center;
+    line-height: 3.0;
+}
+
+#welcomeText {
+    position: absolute;
+    top: 19%;
+    left: 39%;
+    font-size: 2vw;
+}
+
+#note {
+    position: absolute;
+    top: 63%;
+    left: 32%;
+    font-size: 0.6vw;
+}
+
+#userCredentials {
+    height:33.3%;
+    text-align:center;
+}
+
+#login {
+    position:relative;
+    height:33.3%;
+    text-align:center;
+}
+
+#inputText {
+    position: relative;
+    margin: 0.4vw auto;
+    left: 1%;
+    top: 21%;
+    width: 51%;
+    height: 25%;
+    border-radius: 0.4vw;
+    border: none;
+    padding: 0.6vw;
+    outline: none;
+    font-family: "sportscenter";
+    font-size: 0.6vw;
+    letter-spacing: 1px;
+}
+
+#inputButton {
+    width: 38%;
+    height: 25%;
+    position: absolute;
+    left: 33%;
+    top: 20%;
+    border-radius: 0.4vw;
+    background-color: #e26a00;
+    border: none;
+    color: white;
+    outline: none;
+    font-family: "sportscenter";
+    font-size: 0.6vw;
+    letter-spacing: 1px;
+}
+
+#inputButton:hover {
+    cursor:pointer;
+}
+
+#forgotText:hover {
+    cursor:pointer;
+}
+
+#forgotText {
+    position: absolute;
+    left: 36%;
+    top: 58%;
+    font-size: 0.6vw;
+}
+
+#firstLetter {
+    font-size: 0.7vw;
+}
+
+#footer {
+    width:100%;
+    height:15%;
+}
